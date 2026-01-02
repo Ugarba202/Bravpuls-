@@ -6,7 +6,7 @@ import { motion, HTMLMotionProps } from "framer-motion";
 
 interface ButtonProps extends HTMLMotionProps<"button"> {
     variant?: "primary" | "secondary" | "outline" | "ghost";
-    size?: "sm" | "md" | "lg";
+    size?: "sm" | "md" | "lg" | "icon";
     children: React.ReactNode;
 }
 
@@ -28,6 +28,7 @@ export const Button = ({
         sm: "px-4 py-2 text-sm",
         md: "px-6 py-3 text-base font-semibold",
         lg: "px-8 py-4 text-lg font-bold",
+        icon: "h-10 w-10 p-2",
     };
 
     return (
