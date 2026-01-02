@@ -22,8 +22,7 @@ export const Footer = () => {
                             </span>
                         </Link>
                         <p className="text-white text-sm leading-relaxed max-w-xs">
-                            Building Africa's digital future through institutional-grade
-                            innovation, education, and professional IT services.
+                            Equipping individuals and organizations to solve real-world problems through practical training and world-class digital solutions.
                         </p>
                     </div>
 
@@ -37,17 +36,22 @@ export const Footer = () => {
                             </li>
                             <li>
                                 <Link href="#" className="hover:text-white transition-colors">
-                                    Innovation Hub
+                                    Research & Innovation Hub
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#" className="hover:text-white transition-colors">
-                                    Tech Community
+                                    Bravpuls Community
                                 </Link>
                             </li>
                             <li>
                                 <Link href="#" className="hover:text-white transition-colors">
                                     IT Services
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="#" className="hover:text-white transition-colors">
+                                    Events & Consulting
                                 </Link>
                             </li>
                         </ul>

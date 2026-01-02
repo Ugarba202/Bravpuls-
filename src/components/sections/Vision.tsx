@@ -3,25 +3,40 @@
 import React from "react";
 import { Section } from "@/components/ui/Section";
 import { SpotlightCard } from "@/components/ui/SpotlightCard";
-import { Shield, Target, Award } from "lucide-react";
+import { Shield, Target, Award, Lightbulb, Users, ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 export const Vision = () => {
     const values = [
         {
-            title: "Excellence",
-            desc: "Setting world-class standards in everything we build and teach.",
-            icon: Award,
+            title: "Innovation",
+            desc: "We embrace creativity and technology to deliver impactful solutions.",
+            icon: Lightbulb,
         },
         {
             title: "Integrity",
-            desc: "Governed by professional ethics and radical transparency.",
+            desc: "Transparency and honesty guide all interactions.",
             icon: Shield,
         },
         {
-            title: "Impact",
-            desc: "Measuring success by the scalable growth of our community.",
+            title: "Excellence",
+            desc: "We uphold high standards in training, services, and program delivery.",
+            icon: Award,
+        },
+        {
+            title: "Community",
+            desc: "Collaboration and shared growth form our foundation.",
+            icon: Users,
+        },
+        {
+            title: "Accessibility",
+            desc: "Technology should be reachable and usable by everyone.",
             icon: Target,
+        },
+        {
+            title: "Impact",
+            desc: "Every initiative aims to create sustainable and measurable outcomes.",
+            icon: ArrowUpRight,
         },
     ];
 
@@ -60,12 +75,12 @@ export const Vision = () => {
                 <div className="relative z-10 max-w-3xl">
                     <h3 className="text-sm font-bold uppercase tracking-[0.3em] text-accent mb-8">Executive Mission</h3>
                     <p className="text-3xl md:text-5xl font-extrabold leading-[1.1] font-display text-white tracking-tight">
-                        To architect a resilient digital ecosystem where African talent and organizations thrive at global standards.
+                        To deliver practical training, innovative solutions, and strategic consulting that equip individuals and organizations to solve real-world problems.
                     </p>
                 </div>
                 <div className="absolute top-0 right-0 w-96 h-96 bg-accent/20 rounded-full -mr-32 -mt-32 blur-[100px]" />
                 <div className="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full -ml-20 -mb-20 blur-[80px]" />
             </motion.div>
-        </Section>
+        </Section >
     );
 };

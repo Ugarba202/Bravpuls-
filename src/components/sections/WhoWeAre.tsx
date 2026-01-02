@@ -19,9 +19,10 @@ export const WhoWeAre = () => {
                     className="space-y-8 text-lg md:text-xl text-muted leading-relaxed font-medium"
                 >
                     <p>
-                        Operating at the intersection of education, innovation, and industry
-                        services, Bravpuls serves as a credible partner for institutions
-                        seeking to bridge the digital divide.
+                        Bravpuls Technologies is a leading African tech-driven organization dedicated to empowering individuals, institutions, and communities through digital education, innovation, and modern IT solutions.
+                    </p>
+                    <p>
+                        Established to bridge the digital divide, we combine training, consulting, innovation support, and IT services into one unified ecosystem.
                     </p>
                     <p>
                         Our governance framework ensures accountability and excellence in
@@ -39,10 +40,10 @@ export const WhoWeAre = () => {
                     <h3 className="text-2xl font-bold text-primary mb-8 font-display">Our Core Strategy</h3>
                     <ul className="space-y-6">
                         {[
-                            "Institutional Capacity Building",
-                            "Next-Gen Talent Development",
-                            "Sustainable Tech Innovation",
-                            "Global Industry Standards",
+                            "Integrated Ecosystem",
+                            "Practical & Real-World Training",
+                            "Community-Driven Growth",
+                            "Flexible Service Delivery",
                         ].map((item) => (
                             <li key={item} className="flex items-center space-x-4">
                                 <div className="w-2.5 h-2.5 bg-accent rounded-full shadow-[0_0_10px_rgba(59,130,246,0.5)]" />

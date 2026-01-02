@@ -53,11 +53,19 @@ body {
 
 @layer utilities {
   .glass {
-    @apply bg-white/70 backdrop-blur-md border border-white/20;
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-sm;
   }
 
   .glass-dark {
-    @apply bg-primary/80 backdrop-blur-lg border border-white/10;
+    @apply bg-primary/90 backdrop-blur-lg border border-white/10;
+  }
+
+  .shadow-soft {
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.08);
+  }
+
+  .orbital-gradient {
+    background: radial-gradient(circle at 50% 50%, rgba(42, 77, 184, 0.15) 0%, rgba(255, 255, 255, 0) 50%);
   }
 
   .text-reveal {
@@ -72,5 +80,9 @@ body {
 
   .text-reveal:hover {
     background-position: 0 0;
+  }
+
+  .premium-gradient {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 50%, var(--accent-dark) 100%);
   }
 }
