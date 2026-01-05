@@ -1,6 +1,6 @@
 "use client"
 import { motion } from "framer-motion"
-import { Facebook, Twitter, Linkedin, Instagram, Mail, ArrowUpRight } from "lucide-react"; // 1. Added ArrowUpRight
+import { Facebook, Twitter, Linkedin, Instagram, Mail, ArrowUpRight, X } from "lucide-react"; // 1. Added ArrowUpRight
 import Link from "next/link";
 
 export function Footer() {
