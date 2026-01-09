@@ -13,7 +13,7 @@ export const CTA = () => {
                     initial={{ opacity: 0, scale: 0.95 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
-                    className="bg-[#2A4DB8] rounded-[4rem] p-16 md:p-32 text-center text-white relative overflow-hidden shadow-[0_50px_100px_-20px_rgba(42,77,184,0.5)]"
+                    className="bg-[#255EFF] rounded-[4rem] p-16 md:p-32 text-center text-white relative overflow-hidden shadow-[0_50px_100px_-20px_rgba(37,94,255,0.5)]"
                 >
                     <div className="relative z-10 max-w-4xl mx-auto">
                         <h2 className="text-4xl md:text-7xl font-extrabold tracking-tighter mb-10 font-display leading-[1.1]">

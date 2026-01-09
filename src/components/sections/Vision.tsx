@@ -70,7 +70,7 @@ export const Vision = () => {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="mt-24 p-12 md:p-24 bg-[#2A4DB8] text-white rounded-[3rem] relative overflow-hidden shadow-2xl shadow-[#2A4DB8]/30"
+                className="mt-24 p-12 md:p-24 bg-[#255EFF] text-white rounded-[3rem] relative overflow-hidden shadow-2xl shadow-[#255EFF]/30"
             >
                 <div className="relative z-10 max-w-3xl">
                     <h3 className="text-sm font-bold uppercase tracking-[0.3em] text-accent mb-8">Executive Mission</h3>

@@ -1,13 +1,13 @@
 "use client"
 import { motion } from "framer-motion"
-import { Facebook, Twitter, Linkedin, Instagram, Mail, ArrowUpRight, X } from "lucide-react"; // 1. Added ArrowUpRight
+import { Facebook, Linkedin, Instagram, Mail, ArrowUpRight, X } from "lucide-react"; // 1. Added ArrowUpRight
 import Link from "next/link";
 
 export function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-[#2A4DB8] text-white py-12 md:py-20">
+        <footer className="bg-[#255EFF] text-white py-12 md:py-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Main Grid: 4 Columns on desktop */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-12 border-b border-white/10 pb-12">
@@ -20,9 +20,7 @@ export function Footer() {
                                 alt="Bravpuls Technologies"
                                 className="h-10 w-auto brightness-0 invert"
                             />
-                            <span className="text-xl font-bold tracking-tight">
-                                Technologies
-                            </span>
+
                         </Link>
                         <p className="text-sm leading-relaxed text-white/90">
                             Equipping individuals and organizations to solve real-world problems through practical training and world-class digital solutions.
@@ -67,11 +65,19 @@ export function Footer() {
                     <div>
                         <h3 className="text-lg font-bold mb-6">Connect</h3>
                         <div className="flex gap-4">
-                            {[Linkedin, Twitter, Facebook, Instagram, Mail].map((Icon, i) => (
+                            {[
+                                { Icon: Linkedin, href: "https://www.linkedin.com/company/bravpuls-technology-nigeria/" },
+                                { Icon: X, href: "https://twitter.com/bravpuls" },
+                                { Icon: Facebook, href: "https://www.facebook.com/bravpuls" },
+                                { Icon: Instagram, href: "https://www.instagram.com/bravpuls" },
+                                { Icon: Mail, href: "mailto:contact@bravpuls.com" }
+                            ].map(({ Icon, href }, i) => (
                                 <motion.a
                                     key={i}
                                     whileHover={{ scale: 1.1 }}
-                                    href="#"
+                                    href={href}
+                                    target={href.startsWith("http") ? "_blank" : undefined}
+                                    rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
                                     className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all border border-white/20"
                                 >
                                     <Icon className="w-5 h-5" />

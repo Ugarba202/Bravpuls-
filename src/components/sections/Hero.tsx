@@ -53,7 +53,7 @@ export const Hero = () => {
                             transition={{ duration: 0.5, delay: 1.5 }}
                             className="flex flex-col sm:flex-row items-center gap-4"
                         >
-                            <Button size="lg" className="w-full sm:w-auto px-8 rounded-full bg-[#2A4DB8] hover:bg-[#2A4DB8]/90 shadow-lg shadow-[#2A4DB8]/20">
+                            <Button size="lg" className="w-full sm:w-auto px-8 rounded-full bg-[#255EFF] hover:bg-[#255EFF]/90 shadow-lg shadow-[#255EFF]/20">
                                 Explore Ecosystem
                             </Button>
                             <Button size="lg" variant="outline" className="w-full sm:w-auto px-8 rounded-full border-primary/20 hover:bg-secondary">
@@ -69,7 +69,7 @@ export const Hero = () => {
                             initial={{ opacity: 0, y: 40, rotate: -2 }}
                             animate={{ opacity: 1, y: 0, rotate: -2 }}
                             transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
-                            className="absolute top-10 left-0 w-[65%] h-[400px] rounded-[2rem] overflow-hidden shadow-[0_30px_90px_-20px_rgba(42,77,184,0.3)] border-4 border-white z-20"
+                            className="absolute top-10 left-0 w-[65%] h-[400px] rounded-[2rem] overflow-hidden shadow-[0_30px_90px_-20px_rgba(37,94,255,0.3)] border-4 border-white z-20"
                         >
                             <img
                                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
@@ -90,7 +90,7 @@ export const Hero = () => {
                                 alt="Coding Interface"
                                 className="w-full h-full object-cover"
                             />
-                            <div className="absolute inset-0 bg-[#2A4DB8]/10 mix-blend-multiply" />
+                            <div className="absolute inset-0 bg-[#255EFF]/10 mix-blend-multiply" />
                         </motion.div>
 
                         {/* Tertiary Floating Image (Bottom Right) */}
@@ -114,7 +114,7 @@ export const Hero = () => {
                                 rotate: [0, 90, 0],
                             }}
                             transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-tr from-[#2A4DB8]/20 to-accent/10 rounded-full blur-[80px] -z-10"
+                            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-tr from-[#255EFF]/20 to-accent/10 rounded-full blur-[80px] -z-10"
                         />
                     </div>
                 </div>
@@ -122,7 +122,7 @@ export const Hero = () => {
 
             {/* Background Ambient Gradients */}
             <div className="absolute top-0 left-0 w-full h-full -z-10 overflow-hidden pointer-events-none">
-                <div className="absolute top-[-20%] right-[-10%] w-[50%] h-[50%] bg-[#2A4DB8]/5 rounded-full blur-[100px]" />
+                <div className="absolute top-[-20%] right-[-10%] w-[50%] h-[50%] bg-[#255EFF]/5 rounded-full blur-[100px]" />
                 <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-400/5 rounded-full blur-[100px]" />
             </div>
         </section>

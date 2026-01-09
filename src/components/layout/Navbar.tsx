@@ -43,7 +43,7 @@ export const Navbar = () => {
                         alt="Bravpuls Technologies"
                         className="h-16 md:h-20 w-auto transition-all duration-300 group-hover:scale-105 filter drop-shadow-md"
                     />
-                    {/* <span className="text-2xl md:text-4xl font-extrabold text-[#2A4DB8] tracking-tight font-display italic">
+                    {/* <span className="text-2xl md:text-4xl font-extrabold text-[#255EFF] tracking-tight font-display italic">
                         Technologies
                     </span> */}
                 </Link>
@@ -61,7 +61,7 @@ export const Navbar = () => {
                     ))}
                     <Button
                         size="sm"
-                        className="rounded-full bg-[#2A4DB8] hover:bg-[#2A4DB8]/90 shadow-lg shadow-[#2A4DB8]/20 transition-all hover:scale-105"
+                        className="rounded-full bg-[#255EFF] hover:bg-[#255EFF]/90 shadow-lg shadow-[#255EFF]/20 transition-all hover:scale-105"
                     >
                         Partner With Us
                     </Button>
@@ -96,7 +96,7 @@ export const Navbar = () => {
                                     {link.name}
                                 </Link>
                             ))}
-                            <Button className="w-full rounded-full bg-[#2A4DB8] hover:bg-[#2A4DB8]/90">Partner With Us</Button>
+                            <Button className="w-full rounded-full bg-[#255EFF] hover:bg-[#255EFF]/90">Partner With Us</Button>
                         </Container>
                     </motion.div>
                 )}

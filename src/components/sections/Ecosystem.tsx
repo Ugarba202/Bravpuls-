@@ -30,7 +30,7 @@ const ecosystemItems: EcosystemItem[] = [
       "Equipping individuals and organizations with practical, in-demand digital skills through hands-on training.",
     icon: BookOpen,
     size: "col-span-1 md:col-span-1",
-    color: "bg-blue-500/10",
+    color: "bg-[#255EFF]/10",
   },
   {
     title: "Research & Innovation Hub",
@@ -104,7 +104,7 @@ export const Ecosystem = () => {
                   border border-transparent
                   rounded-3xl
                   shadow-[0_10px_30px_-10px_rgba(0,0,0,0.05)]
-                  hover:shadow-[0_20px_50px_-10px_rgba(42,77,184,0.12)]
+                  hover:shadow-[0_20px_50px_-10px_rgba(37,94,255,0.12)]
                   transition-all duration-300
                 "
               >
@@ -112,13 +112,13 @@ export const Ecosystem = () => {
                   <div
                     className={`w-14 h-14 ${item.color} rounded-2xl flex items-center justify-center mb-4 border border-transparent group-hover:scale-110 transition-transform`}
                   >
-                    <item.icon className="text-primary" size={28} />
+                    <item.icon className="text-[#255EFF]" size={28} />
                   </div>
 
-                  <h3 className="text-2xl font-bold text-primary mb-2 font-display flex items-center gap-2">
+                  <h3 className="text-2xl font-bold text-[#255EFF] mb-2 font-display flex items-center gap-2">
                     {item.title}
                     <ArrowUpRight
-                      className="opacity-0 group-hover:opacity-100 transition-opacity text-accent"
+                      className="opacity-0 group-hover:opacity-100 transition-opacity text-[#255EFF]"
                       size={20}
                     />
                   </h3>

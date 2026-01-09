@@ -72,9 +72,9 @@ export const Services = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: i * 0.1 }}
-                        className="group p-8 rounded-3xl bg-white border border-transparent shadow-[0_10px_30px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_20px_50px_-10px_rgba(42,77,184,0.1)] transition-all duration-300 hover:-translate-y-1"
+                        className="group p-8 rounded-3xl bg-white border border-transparent shadow-[0_10px_30px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_20px_50px_-10px_rgba(37,94,255,0.1)] transition-all duration-300 hover:-translate-y-1"
                     >
-                        <div className="w-12 h-12 bg-[#2A4DB8]/5 rounded-xl flex items-center justify-center mb-6 text-[#2A4DB8] group-hover:bg-[#2A4DB8] group-hover:text-white transition-colors duration-300">
+                        <div className="w-12 h-12 bg-[#255EFF]/5 rounded-xl flex items-center justify-center mb-6 text-[#255EFF] group-hover:bg-[#255EFF] group-hover:text-white transition-colors duration-300">
                             <service.icon size={24} />
                         </div>
                         <h3 className="text-xl font-bold text-primary mb-3 font-display">{service.title}</h3>

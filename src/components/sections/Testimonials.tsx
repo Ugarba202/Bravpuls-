@@ -102,13 +102,13 @@ export const Testimonials = () => {
               className="
                 bg-white rounded-3xl p-8
                 shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)]
-                hover:shadow-[0_25px_70px_-15px_rgba(42,77,184,0.25)]
+                hover:shadow-[0_25px_70px_-15px_rgba(37,94,255,0.25)]
                 flex flex-col
                 min-h-[380px]
                 min-w-[300px] sm:min-w-[360px]
               "
             >
-              <Quote className="text-[#2A4DB8]/20 mb-6" size={40} />
+              <Quote className="text-[#255EFF]/20 mb-6" size={40} />
 
               <p className="text-lg text-foreground/80 leading-relaxed font-medium">
                 “{t.quote}”
@@ -125,7 +125,7 @@ export const Testimonials = () => {
                   <h4 className="font-bold text-primary text-sm">
                     {t.author}
                   </h4>
-                  <p className="text-xs text-[#2A4DB8] font-bold uppercase tracking-wider">
+                  <p className="text-xs text-[#255EFF] font-bold uppercase tracking-wider">
                     {t.role}
                   </p>
                 </div>

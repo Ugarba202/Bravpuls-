@@ -40,7 +40,7 @@ export const BackToTop = () => {
                     <Button
                         onClick={scrollToTop}
                         size="icon"
-                        className="rounded-full w-12 h-12 bg-[#2A4DB8] hover:bg-[#2A4DB8]/90 text-white shadow-lg shadow-[#2A4DB8]/30 hover:-translate-y-1 transition-all duration-300"
+                        className="rounded-full w-12 h-12 bg-[#255EFF] hover:bg-[#255EFF]/90 text-white shadow-lg shadow-[#255EFF]/30 hover:-translate-y-1 transition-all duration-300"
                     >
                         <ArrowUp size={24} />
                     </Button>
