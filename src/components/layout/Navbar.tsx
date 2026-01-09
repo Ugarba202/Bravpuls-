@@ -39,13 +39,13 @@ export const Navbar = () => {
             <Container className="flex items-center justify-between">
                 <Link href="/" className="flex items-center space-x-4 group">
                     <img
-                        src="/logo-transparent.png"
+                        src="/logo-optimized.png"
                         alt="Bravpuls Technologies"
                         className="h-16 md:h-20 w-auto transition-all duration-300 group-hover:scale-105 filter drop-shadow-md"
                     />
-                    <span className="text-2xl md:text-4xl font-extrabold text-[#2A4DB8] tracking-tight font-display italic">
+                    {/* <span className="text-2xl md:text-4xl font-extrabold text-[#2A4DB8] tracking-tight font-display italic">
                         Technologies
-                    </span>
+                    </span> */}
                 </Link>
 
                 {/* Desktop Links */}

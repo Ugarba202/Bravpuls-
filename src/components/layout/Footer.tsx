@@ -11,12 +11,12 @@ export function Footer() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Main Grid: 4 Columns on desktop */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-12 border-b border-white/10 pb-12">
-                    
+
                     {/* Column 1: Logo & Summary */}
                     <div className="flex flex-col">
                         <Link href="/" className="flex items-center space-x-2 mb-6">
                             <img
-                                src="/logo-transparent.png"
+                                src="/logo-optimized.png"
                                 alt="Bravpuls Technologies"
                                 className="h-10 w-auto brightness-0 invert"
                             />
