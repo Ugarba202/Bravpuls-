@@ -5,13 +5,11 @@ import { Container } from "@/components/ui/Container";
 import { motion } from "framer-motion";
 
 const partners = [
-    "University Partnerships",
-    "NGO Coalitions",
-    "Corporate Tech",
-    "Government Agencies",
-    "Innovation Hubs",
-    "FutureAfrica",
-    "GlobalTech",
+    "IpayBTC",
+    "TeenGirlsInBlockchain",
+    "KeroLab",
+    "pipys solution",
+    "TwelveHundred",
 ];
 
 export const Trust = () => {
@@ -19,7 +17,7 @@ export const Trust = () => {
         <section className="py-12 border-y border-primary/5 bg-secondary/30 overflow-hidden">
             <Container>
                 <p className="text-center text-xs font-extrabold uppercase tracking-[0.4em] text-muted-foreground mb-10">
-                    Trusted by Institutional Partners
+                    Our Partners
                 </p>
                 <div className="relative flex overflow-hidden">
                     <motion.div

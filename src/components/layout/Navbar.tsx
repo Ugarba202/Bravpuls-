@@ -41,7 +41,7 @@ export const Navbar = () => {
                     <img
                         src="/logo-optimized.png"
                         alt="Bravpuls Technologies"
-                        className="h-16 md:h-20 w-auto transition-all duration-300 group-hover:scale-105 filter drop-shadow-md"
+                        className="h-10 md:h-12 w-auto transition-all duration-300 group-hover:scale-105 filter drop-shadow-md"
                     />
                     {/* <span className="text-2xl md:text-4xl font-extrabold text-[#255EFF] tracking-tight font-display italic">
                         Technologies

@@ -39,26 +39,6 @@ export const Leadership = () => {
                     </motion.div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
-                    {[
-                        "Executive Leadership",
-                        "Unit Leads & Directors",
-                        "Operations & Strategy",
-                    ].map((comm, i) => (
-                        <motion.div
-                            key={comm}
-                            initial={{ opacity: 0, scale: 0.95 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: i * 0.1 }}
-                        >
-                            <SpotlightCard className="flex items-center space-x-6 py-6 px-8 rounded-2xl bg-secondary/50 border-primary/5">
-                                <div className="w-4 h-4 bg-accent rounded-full shadow-[0_0_10px_rgba(59,130,246,0.3)]" />
-                                <span className="font-extrabold text-primary text-lg tracking-tight font-display">{comm}</span>
-                            </SpotlightCard>
-                        </motion.div>
-                    ))}
-                </div>
             </div>
         </Section>
     );

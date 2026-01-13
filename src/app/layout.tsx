@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Bravpuls Technologies | Architecting Africa's Digital Future",
   description: "Bravpuls Technologies is a professionally governed African technology organization dedicated to institutional-grade innovation and professional excellence.",
   icons: {
-    icon: '/favicon.ico',
+    icon: '/logo-optimized.png',
   },
 };
 

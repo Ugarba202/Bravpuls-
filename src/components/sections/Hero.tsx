@@ -53,10 +53,10 @@ export const Hero = () => {
                             transition={{ duration: 0.5, delay: 1.5 }}
                             className="flex flex-col sm:flex-row items-center gap-4"
                         >
-                            <Button size="lg" className="w-full sm:w-auto px-8 rounded-full bg-[#255EFF] hover:bg-[#255EFF]/90 shadow-lg shadow-[#255EFF]/20">
+                            <Button size="sm" className="w-full sm:w-auto min-w-[160px] rounded-full bg-[#255EFF] hover:bg-[#255EFF]/90 shadow-lg shadow-[#255EFF]/20">
                                 Explore Ecosystem
                             </Button>
-                            <Button size="lg" variant="outline" className="w-full sm:w-auto px-8 rounded-full border-primary/20 hover:bg-secondary">
+                            <Button size="sm" variant="outline" className="w-full sm:w-auto min-w-[160px] rounded-full border-primary/20 hover:bg-secondary">
                                 Partner With Us
                             </Button>
                         </motion.div>
