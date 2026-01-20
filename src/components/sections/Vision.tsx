@@ -70,10 +70,10 @@ export const Vision = () => {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="mt-24 p-12 md:p-24 bg-[#255EFF] text-white rounded-[3rem] relative overflow-hidden shadow-2xl shadow-[#255EFF]/30"
+                className="mt-24 p-8 md:p-14 bg-[#255EFF] text-white rounded-[3rem] relative overflow-hidden shadow-[0_50px_100px_-20px_rgba(37,94,255,0.5)] max-w-5xl mx-auto text-center"
             >
-                <div className="relative z-10 max-w-3xl">
-                    <h3 className="text-sm font-bold uppercase tracking-[0.3em] text-accent mb-8">Executive Mission</h3>
+                <div className="relative z-10 max-w-3xl mx-auto">
+                    <h3 className="text-sm font-bold uppercase tracking-[0.3em] text-white mb-8">Executive Mission</h3>
                     <p className="text-3xl md:text-5xl font-extrabold leading-[1.1] font-display text-white tracking-tight">
                         To deliver practical training, innovative solutions, and strategic consulting that equip individuals and organizations to solve real-world problems.
                     </p>

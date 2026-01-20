@@ -13,16 +13,16 @@ export const CTA = () => {
                     initial={{ opacity: 0, scale: 0.95 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
-                    className="bg-[#255EFF] rounded-[3rem] p-10 md:p-20 text-center text-white relative overflow-hidden shadow-[0_50px_100px_-20px_rgba(37,94,255,0.5)]"
+                    className="bg-[#255EFF] rounded-[3rem] p-8 md:p-14 text-center text-white relative overflow-hidden shadow-[0_50px_100px_-20px_rgba(37,94,255,0.5)] max-w-5xl mx-auto"
                 >
-                    <div className="relative z-10 max-w-4xl mx-auto">
-                        <h2 className="text-4xl md:text-7xl font-extrabold tracking-tighter mb-10 font-display leading-[1.1]">
+                    <div className="relative z-10 max-w-3xl mx-auto">
+                        <h2 className="text-3xl md:text-5xl font-extrabold tracking-tighter mb-8 font-display leading-[1.1]">
                             Join Us in Building Africa's Future
                         </h2>
-                        <p className="text-xl md:text-3xl text-white/70 mb-16 font-medium leading-relaxed">
+                        <p className="text-lg md:text-2xl text-white/70 mb-10 font-medium leading-relaxed">
                             Whether you are an institution looking for a partner or a professional seeking growth, there is a place for you in the Bravpuls ecosystem.
                         </p>
-                        <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                             <Button size="lg" className="bg-white text-primary hover:bg-white/90 w-full sm:w-auto px-12">
                                 Explore Ecosystem
                             </Button>
